@@ -1,0 +1,24 @@
+{
+  "name": "adnanhussainturki/dhan-php",
+  "description": "PHP Wrapper for Dhan Trading API",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^7.8"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AdnanHussainTurki\\Dhan\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Adnan Hussain Turki",
+      "email": "adnanhussainturki@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
